@@ -1,0 +1,87 @@
+.choseContainer {
+    width: 100%;
+    padding: 20px;
+    margin-top:100px ;
+    box-sizing: border-box;
+  }
+  
+  .choseContainer h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Evangelie', sans-serif;
+  }
+  
+  .itemsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Add some spacing between items */
+    justify-content: space-between;
+  }
+  
+  .choseItem {
+    background-color: #fff;
+    border: 2px solid black;
+    /* border-radius: 8px; */
+    box-shadow: 3px 4px 4px black;
+    padding: 10px;
+    max-width: 30%;
+    width: 100%;
+    max-height: 200px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-align: left;
+  }
+  
+  .itemImage {
+    width: 100px; /* Set fixed width */
+    height: 100px; /* Set fixed height */
+    object-fit: cover; /* Cover to maintain aspect ratio */
+    margin-right: 10px; /* Space between image and text */
+  }
+  
+  .itemDetails {
+    flex: 1; /* Take remaining space */
+  }
+  
+  .itemDetails h3 {
+    margin: 0 0 5px; /* Reduced margin */
+    font-size: 16px; /* Reduced font size */
+  }
+  
+  .itemDetails p {
+    margin: 3px 0; /* Reduced margin */
+    font-size: 14px; /* Reduced font size */
+  }
+  
+  .color {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: currentColor;
+    border-radius: 50%;
+  }
+  
+  .viewBtn {
+    background-color: #2b3338;
+    color: #fff;
+    border: none;
+    padding: 8px; /* Reduced padding */
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 12px; /* Reduced font size */
+    margin-top: 5px; /* Reduced margin */
+  }
+  
+  .deleteBtn {
+    position: absolute;
+    top: 5px; /* Adjusted position */
+    right: 5px; /* Adjusted position */
+    background: none;
+    border: none;
+    font-size: 18px; /* Reduced font size */
+    cursor: pointer;
+    font-weight: bold;
+  }
+  

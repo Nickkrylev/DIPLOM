@@ -1,0 +1,16 @@
+# Node.js
+node_modules/
+
+# Vite
+client/vite/
+
+# Specific directories
+client/node_modules/
+server/node_modules/
+
+# Other potential ignores
+.DS_Store
+dist/
+build/
+.env
+*.log

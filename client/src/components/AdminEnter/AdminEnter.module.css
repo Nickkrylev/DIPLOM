@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Evangelie';
+    src: url('../../../front/BehrensKursivC.ttf') format('truetype');
+}
+
+.formBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128); /* Light gray background with transparency */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+    opacity: 1;
+    transition: opacity 0.5s ease; /* Add transition for smooth fade-out */
+}
+
+.formBackground.hidden {
+    opacity: 0; /* Fade-out effect */
+}
+
+.formContainer {
+    background-color: #fff;
+    border: 2px solid black;
+    padding: 40px;
+    max-width: 400px;
+    width: 100%; /* Ensure the form takes up the maximum width */
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+    position: relative;
+    z-index: 2;
+    opacity: 1;
+    transform: scale(1);
+    transition: transform 0.5s ease, opacity 0.5s ease; /* Add transition for smooth closing animation */
+}
+
+.formContainer.hidden {
+    opacity: 0;
+    transform: scale(0.8); /* Shrink effect */
+}
+
+.title {
+    font-family: 'Evangelie', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #000;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputGroup {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.input {
+    box-sizing: border-box;
+    width: 100% !important;
+    padding: 10px !important;
+    border: 1px solid #ccc;
+    border-radius: 4px !important;
+    font-size: 16px !important;
+}
+
+.error {
+    color: #f00;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.linkGroup {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.link {
+    color: #9d6d6d;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: #c73c3c;
+}
+
+.submitButton {
+    padding: 10px !important;
+    background-color: #000 !important;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px !important;
+    font-family: 'Evangelie', sans-serif;
+}
+
+.submitButton:hover {
+    background-color: #444;
+}

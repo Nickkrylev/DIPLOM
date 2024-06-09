@@ -1,0 +1,128 @@
+/* ProductElem.module.css */
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
+}
+
+.images {
+  max-width: 400px;
+  margin-right: 20px;
+}
+
+.carousel .slide img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.mainImage {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainImage img {
+  max-width: 100%;
+  height: auto;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  gap: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.description {
+  font-size: 16px;
+  color: #555;
+}
+
+.price {
+  font-size: 24px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.color {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.sizes {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.sizeOptions {
+  display: flex;
+  gap: 10px;
+}
+
+.sizeButton {
+  padding: 10px;
+  color: unset;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
+
+.sizeButton.selected {
+  border-color: #007BFF;
+  background-color: #007BFF;
+  color: white;
+}
+
+.addButton {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.addButton:hover {
+  background-color: #555;
+}
+
+.extraInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.extraInfo div {
+  cursor: pointer;
+  color: black;
+}
+
+.extraInfo div:hover {
+  text-decoration: none;
+}
+
+.extraInfo span {
+  display: block;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.extraInfo span strong {
+  display: block;
+  margin-top: 10px;
+}

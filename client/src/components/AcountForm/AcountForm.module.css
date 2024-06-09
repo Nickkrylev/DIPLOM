@@ -1,0 +1,44 @@
+/* AccountForm.module.css */
+.form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .formGroup {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .formGroup input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .aboutSection {
+    margin-top: 20px;
+  }
+  
+  .updateButton {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .updateButton:hover {
+    background-color: #0056b3;
+  }
+  

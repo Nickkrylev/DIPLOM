@@ -1,0 +1,26 @@
+.orderConfirmation {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .orderConfirmation h2 {
+    margin-bottom: 20px;
+  }
+  
+  .orderConfirmation div {
+    margin-bottom: 10px;
+  }
+  
+  .orderConfirmation ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .orderConfirmation li {
+    margin-bottom: 5px;
+  }
+  

@@ -1,0 +1,91 @@
+.accountPage {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  
+  .sidebar {
+    width: 20%;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-right: 1px solid #ddd;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
+  .content {
+    width: 80%;
+    padding: 20px;
+  }
+  
+  .content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .formGroup {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .formGroup:last-child {
+    margin-right: 0;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .formGroup input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .aboutSection {
+    margin: 20px 0;
+  }
+  
+  .aboutSection label {
+    font-weight: bold;
+  }
+  
+  .aboutSection p {
+    margin-top: 5px;
+    color: #777;
+  }
+  
+  .updateButton {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .updateButton:hover {
+    background-color: #555;
+  }
+  
