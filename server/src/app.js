@@ -3,7 +3,7 @@ import logger from 'morgan';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import path from 'path';
-import router from './routers/index'; // Adjust the path as necessary
+import router from './routers/index.js'; // Adjust the path as necessary
 import bodyParser from 'body-parser';
 
 dotenv.config();

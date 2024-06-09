@@ -1,5 +1,5 @@
 
-import Seller from '../models/seller';
+import Seller from '../models/seller.js';
 export default {
     getAllBuyers() {
         return Seller.findAll();

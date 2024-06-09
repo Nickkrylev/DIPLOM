@@ -1,4 +1,4 @@
-import OrderItem from '../models/orderItem';
+import OrderItem from '../models/orderItem.js';
 
 export default {
     getAllOrderItems() {

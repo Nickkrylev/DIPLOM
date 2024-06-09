@@ -1,4 +1,4 @@
-import ProductItem from '../models/productItem';
+import ProductItem from '../models/productItem.js';
 
 export default {
     getAllProductItems() {

@@ -1,6 +1,6 @@
 import { sequelize } from '../db.js';
 import { QueryTypes } from 'sequelize';
-import productService from '../services/product';
+import productService from '../services/product.js';
 
 export default {
     async getAllProducts(req, res) {

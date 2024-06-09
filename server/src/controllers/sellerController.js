@@ -1,4 +1,4 @@
-import sellerService from '../services/seller';
+import sellerService from '../services/seller.js';
 
 export default {
     async getAllBuyers(req, res) {

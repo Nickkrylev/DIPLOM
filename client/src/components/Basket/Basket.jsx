@@ -35,8 +35,8 @@ const BasketItem = ({ item, onIncrease, onDecrease, onDelete, onQuantityChange }
         </div>
       </div>
       <div className={style.itemOptions}>
-        <button className={style.deleteBtn} onClick={() => onDelete(item.id, item.size)}>Видалити <img src="../../../img/trash.png" className={style.icon} alt="Delete" /></button>
-        <button className={style.saveBtn}>Відклаcти <img src="../../../img/heart-black.png" className={style.icon} alt="Favorites" /></button>
+        <button className={style.deleteBtn} onClick={() => onDelete(item.id, item.size)}>Видалити <img src="../../../public/img/trash.png" className={style.icon} alt="Delete" /></button>
+        <button className={style.saveBtn}>Відклаcти <img src="../../../public/img/heart-black.png" className={style.icon} alt="Favorites" /></button>
       </div>
     </div>
   </div>

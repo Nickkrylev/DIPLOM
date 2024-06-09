@@ -145,10 +145,10 @@ function BuyerPanel() {
                     </td>
                     <td>
                       <button onClick={() => handleEditClick(order)}>
-                        <img src="../../../img/edit.png" alt="Edit" />
+                        <img src="../../../public/img/edit.png" alt="Edit" />
                       </button>
                       <button onClick={() => handleDeleteOrder(order.id)}>
-                        <img src="../../../img/trash.png" alt="Delete" />
+                        <img src="../../../public/img/trash.png" alt="Delete" />
                       </button>
                     </td>
                   </tr>
@@ -190,7 +190,7 @@ function BuyerPanel() {
                     <td>{product.created_at}</td>
                     <td>
                       <button onClick={() => handleDeleteProduct(product.id)}>
-                        <img src="../../../img/trash.png" alt="Delete" />
+                        <img src="../../../public/img/trash.png" alt="Delete" />
                       </button>
                     </td>
                   </tr>

@@ -1,5 +1,5 @@
 import { Op } from 'sequelize';
-import Product from '../models/product';
+import Product from '../models/product.js';
 
 export default {
     getAllProducts() {

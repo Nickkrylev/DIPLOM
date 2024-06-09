@@ -1,4 +1,4 @@
-import orderItemService from '../services/orderItem';
+import orderItemService from '../services/orderItem.js';
 
 export default {
     async getAllOrderItems(req, res) {

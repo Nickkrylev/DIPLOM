@@ -369,10 +369,10 @@ function AdminPanel() {
                     <td>{seller.telephone}</td>
                     <td>
                       <button onClick={() => handleEditClick(seller)}>
-                        <img src="../../../img/edit.png" alt="Edit" />
+                        <img src="../../../public/img/edit" alt="Edit" />
                       </button>
                       <button onClick={() => handleDeleteSeller(seller.id)}>
-                        <img src="../../../img/trash.png" alt="Delete" />
+                        <img src="../../../public/img/trash.png" alt="Delete" />
                       </button>
                     </td>
                   </tr>

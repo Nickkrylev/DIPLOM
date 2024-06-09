@@ -1,4 +1,4 @@
-import Client from '../models/client';
+import Client from '../models/client.js';
 import bcrypt from 'bcrypt';
 
 export default {

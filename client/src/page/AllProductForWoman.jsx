@@ -4,7 +4,7 @@ import Product from "../components/Product/Product";
 const products = [
     {
         id: "1",
-        image: '../../../img/product1.webp',
+        image: '../../../public/img/product1.webp',
         title: 'ANNA YAKOVENKO',
         description: 'Сукня максі синьо-біла смугаста',
         category: 'accessories',
@@ -13,7 +13,7 @@ const products = [
     },
     {
         id: "2",
-        image: '../../../img/product2.webp',
+        image: '../../../public/img/product2.webp',
         title: 'MOVA',
         description: 'Сукня міні чорна',
         category: 'clothes',
@@ -22,7 +22,7 @@ const products = [
     },
     {
         id: "3",
-        image: '../../../img/product3.webp',
+        image: '../../../public/img/product3.webp',
         title: 'KASANDRA',
         description: 'Кросівки бежеві шкіряні',
         category: 'shoes',
@@ -31,7 +31,7 @@ const products = [
     },
     {
         id: "4",
-        image: '../../../img/product4.webp',
+        image: '../../../public/img/product4.webp',
         title: 'KASANDRA',
         description: 'Шльопанці чорні шкіряні',
         category: 'shoes',

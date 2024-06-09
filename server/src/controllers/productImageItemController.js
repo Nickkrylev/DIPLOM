@@ -1,4 +1,4 @@
-import productImageItemService from '../services/productImageItem';
+import productImageItemService from '../services/productImageItem.js';
 
 export default {
     async getAllProductImageItems(req, res) {

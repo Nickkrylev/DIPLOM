@@ -1,16 +1,16 @@
 import { Router } from 'express';
 import bodyParser from 'body-parser';
-import sellerRouter from './sellerRouter';
-import categoryRouter from './categoryRouter';
-import productRouter from './productRouter';
-import productImageRouter from './productImageRouter';
-import productImageItemRouter from './productImageItemRouter';
-import productItemRouter from './productItemRouter';
-import clientRouter from './clientRouter';
-import orderRouter from './orderRouter';
-import orderItemRouter from './orderItemRouter';
-import adminRouter from './adminRouter';
-import sellerAdminRouter from './selelrAdminRouter';
+import sellerRouter from './sellerRouter.js';
+import categoryRouter from './categoryRouter.js';
+import productRouter from './productRouter.js';
+import productImageRouter from './productImageRouter.js';
+import productImageItemRouter from './productImageItemRouter.js';
+import productItemRouter from './productItemRouter.js';
+import clientRouter from './clientRouter.js';
+import orderRouter from './orderRouter.js';
+import orderItemRouter from './orderItemRouter.js';
+import adminRouter from './adminRouter.js';
+import sellerAdminRouter from './selelrAdminRouter.js';
 const router = Router();
 
 

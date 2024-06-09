@@ -1,6 +1,6 @@
 // gameRouter.js
 import { Router } from 'express';
-import gameController from '../controler/gameControler';  // Make sure the import path is correct based on your project structure
+import gameController from '../controler/gameControler.js';  // Make sure the import path is correct based on your project structure
 
 const router = Router();
 

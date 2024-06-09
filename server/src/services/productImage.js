@@ -1,4 +1,4 @@
-import ProductImage from '../models/productImage';
+import ProductImage from '../models/productImage.js';
 
 export default {
     getAllProductImages() {

@@ -1,4 +1,4 @@
-import adminService from '../services/admin';
+import adminService from '../services/admin.js';
 
 export default {
     async getAllAdmins(req, res) {

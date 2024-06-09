@@ -1,4 +1,4 @@
-import categoryService from '../services/category';
+import categoryService from '../services/category.js';
 
 export default {
     async getAllCategories(req, res) {

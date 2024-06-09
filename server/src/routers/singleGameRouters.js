@@ -1,6 +1,6 @@
 import { Router } from 'express';
 
-import singleGameController from '../controler/singleGameControler';  // Adjust the import path as necessary
+import singleGameController from '../controler/singleGameControler.js';  // Adjust the import path as necessary
 
 const router = Router();
 

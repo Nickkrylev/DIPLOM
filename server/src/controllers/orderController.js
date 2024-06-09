@@ -1,4 +1,4 @@
-import orderService from '../services/order';
+import orderService from '../services/order.js';
 
 export default {
     async getAllOrders(req, res) {

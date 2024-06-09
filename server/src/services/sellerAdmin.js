@@ -1,4 +1,4 @@
-import SellerAdmin from '../models/sellerAdmin';
+import SellerAdmin from '../models/sellerAdmin.js';
 
 
 

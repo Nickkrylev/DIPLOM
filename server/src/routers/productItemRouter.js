@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import productItemController from '../controllers/productItemController';
+import productItemController from '../controllers/productItemController.js';
 
 const router = Router();
 router.get('/product/:productId', productItemController.getProductItemsByProductId);

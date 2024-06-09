@@ -1,4 +1,4 @@
-import productItemService from '../services/productItem';
+import productItemService from '../services/productItem.js';
 
 export default {
     async getAllProductItems(req, res) {

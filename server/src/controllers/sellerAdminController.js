@@ -1,4 +1,4 @@
-import SellerAdminService from '../services/sellerAdmin';
+import SellerAdminService from '../services/sellerAdmin.js';
 
 export default {
     async getAllBuyerAdmins(req, res) {
